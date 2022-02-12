@@ -55,7 +55,7 @@ const HomeProducts = () => {
 
             <Container>
                 <div className="text-center my-8">
-                    <Button className='border-red-300'>
+                    <Button type='button' className='btn border-red-300 hover:orange-300'>
                         <Link to={'/explore'} className='font-medium  text-orange-600 text-2xl text-center' >Explore More Cars.....</Link>
                     </Button>
                 </div>
