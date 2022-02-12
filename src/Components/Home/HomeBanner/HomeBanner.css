@@ -7,11 +7,16 @@
   }
   
   #myVideo {
-  position: absolutenpm i react-responsive-video;
+  position: relative;
     right: 0;
     bottom: 0;
     width: 100%; 
-    min-height: 90%;
+    max-height: 50% !important;
+  }
+
+  .img{
+    max-height: 40% !important;
+    max-width: 100%;
   }
   
   .content {

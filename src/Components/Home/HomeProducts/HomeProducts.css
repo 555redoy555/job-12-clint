@@ -1,0 +1,11 @@
+.hover-class:hover img{
+    -ms-transform: scale(3); /* IE 9 */
+    -webkit-transform: scale(3); /* Safari 3-8 */
+    transform: scale(1.1); 
+}
+
+.hover-class:hover{
+    color: orange ;
+    
+}
+
