@@ -19,7 +19,6 @@ const Navigation = () => {
 
                             <Nav.Link className="navbar" as={HashLink} to="/explore">Explore More</Nav.Link>
                             <Nav.Link className="navbar" as={HashLink} to="/About">About</Nav.Link>
-                            <Nav.Link className="navbar" as={HashLink} to="/Businesses">Businesses</Nav.Link>
                             <Nav.Link className="navbar " as={HashLink} to="/dashboard">Dashboard</Nav.Link>
 
                             <Navbar.Collapse className="justify-content-end">
