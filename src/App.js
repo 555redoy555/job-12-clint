@@ -9,6 +9,7 @@ import ViewDetails from './Components/ViewDetails/ViewDetails';
 import PrivateRoute from './PrivateRoute/PrivateRoute';
 import ExploreCars from './Components/ExploreCars/ExploreCars';
 import Dashboard from './Components/Dashboard/Dashboard';
+import About from './Components/About/About';
 
 function App() {
   return (
@@ -36,6 +37,9 @@ function App() {
             </PrivateRoute>
             <PrivateRoute path='/dashboard'>
               <Dashboard></Dashboard>
+            </PrivateRoute>
+            <PrivateRoute path='/about'>
+              <About></About>
             </PrivateRoute>
           </Switch>
         </BrowserRouter>

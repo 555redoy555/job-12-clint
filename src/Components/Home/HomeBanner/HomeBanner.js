@@ -24,22 +24,22 @@ const HomeBanner = () => {
                     <div class="carousel-item active">
                         <img style={{ "height": "700px", }} className='img w-100' src="https://wallpaperaccess.com/full/124005.jpg" alt="" />
                         <div class="carousel-caption d-none d-md-block">
-                            <h5>First slide label</h5>
-                            <p>Some representative placeholder content for the first slide.</p>
+                            {/* <h5>First slide label</h5>
+                            <p>Some representative placeholder content for the first slide.</p> */}
                         </div>
                     </div>
                     <div class="carousel-item">
                         <img style={{ "height": "700px", }} className='img w-100' src="https://cdn.wallpapersafari.com/54/80/Xj7EHx.jpg" class="d-block w-100" alt="..." />
                         <div class="carousel-caption d-none d-md-block">
-                            <h5>Second slide label</h5>
-                            <p>Some representative placeholder content for the second slide.</p>
+                            {/* <h5>Second slide label</h5>
+                            <p>Some representative placeholder content for the second slide.</p> */}
                         </div>
                     </div>
                     <div style={{ "height": "700px", }} className='img w-100' class="carousel-item">
                         <img src="https://www.desktopbackground.org/download/o/2010/12/03/120513_car-wallpapers-full-screen-hd-cars-wallpapers-hd_1280x800_h.jpg" class="d-block w-100" alt="..." />
                         <div class="carousel-caption d-none d-md-block">
-                            <h5>Third slide label</h5>
-                            <p>Some representative placeholder content for the third slide.</p>
+                            {/* <h5>Third slide label</h5>
+                            <p>Some representative placeholder content for the third slide.</p> */}
                         </div>
                     </div>
                 </div>

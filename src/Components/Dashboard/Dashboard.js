@@ -71,7 +71,7 @@ const Dashboard = () => {
     return (
         <div>
             <div className="grid grid-cols-12 gap-5" style={{ minHeight: "500px" }}>
-                <div className="col-span-12 md:col-span-2 p-5 bg-green-400">
+                <div className="col-span-12 md:col-span-2 p-5 bg-zinc-400">
                     {drawer}
                 </div>
                 <div className="col-span-12 md:col-span-10 py-10">
